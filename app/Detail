@@ -1,0 +1,14 @@
+RecyclerView:
+Exibe a lista de tarefas de forma eficiente, reciclando as views para melhor desempenho.
+
+FloatingActionButton:
+Um botão flutuante que abre um AlertDialog para permitir a adição de novas tarefas.
+
+AlertDialog:
+Exibe um pop-up com um campo de texto (EditText) onde o usuário pode digitar a tarefa.
+
+TaskAdapter:
+Conecta os dados (tarefas) à RecyclerView e controla a lógica de exibição e remoção de itens.
+
+ViewHolder:
+Garante que cada item da lista tenha os componentes corretos (TextView para o nome e Button para remover).
